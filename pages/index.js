@@ -1,6 +1,7 @@
 import Head from 'next/head'
 // Components
 import Nav from '../components/Nav/Nav';
+import Newsletter from '../components/Newsletter/Newsletter';
 
 export default function Home() {
   return (
@@ -12,7 +13,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <Nav />
+        {/* <Nav /> */}
+        <div style = {{textAlign: 'center', marginBottom: '5rem'}}>
+          <h1 style = {{fontSize: '61px'}}>Headless Team</h1>
+          <h2>Coming soon...</h2>
+        </div>
+        <Newsletter />
       </main>
 
       <footer>
