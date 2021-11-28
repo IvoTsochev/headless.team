@@ -1,4 +1,5 @@
-const path = require('path')
+const path = require('path');
+const withPWA = require('next-pwa')
 
 
 module.exports = {
@@ -7,3 +8,7 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
 }
+
+module.exports = withPWA({
+  pwa: { dest: 'public' }
+})
