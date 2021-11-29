@@ -10,20 +10,20 @@ export const NavLinks = [
   {
     name: "Home",
     url: "/",
-    subItems: [
-      {
-        name: "Home 01",
-        url: "/"
-      },
-      {
-        name: "Home 02",
-        url: "/index-2"
-      },
-      {
-        name: "Home 03",
-        url: "/index-3"
-      }
-    ]
+    // subItems: [
+    //   {
+    //     name: "Home 01",
+    //     url: "/"
+    //   },
+    //   {
+    //     name: "Home 02",
+    //     url: "/index-2"
+    //   },
+    //   {
+    //     name: "Home 03",
+    //     url: "/index-3"
+    //   }
+    // ]
   },
   {
     name: "About",
@@ -541,11 +541,11 @@ export const ServicePostTwoData = {
       iconName: "mei-development",
       url: "/service-details"
     },
-    {
-      title: "App Development",
-      iconName: "mei-app-development",
-      url: "/service-details"
-    }
+    // {
+    //   title: "App Development",
+    //   iconName: "mei-app-development",
+    //   url: "/service-details"
+    // }
   ]
 };
 

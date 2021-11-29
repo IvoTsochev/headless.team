@@ -416,7 +416,10 @@ License URI:
 }
 .custom_column .col-lg-3 {
   width: 20%;
-  flex: 0 0 20%;
+  flex: 0 0 20%; 
+}
+.custom_column {
+  justify-content: center;
 }
 .icon_box_1 .back h3,
 .icon_box_1 .back i {
