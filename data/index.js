@@ -46,33 +46,33 @@ export const NavLinks = [
   {
     name: "Portfolio",
     url: "/portfolio",
-    subItems: [
-      {
-        name: "Portfolio 01",
-        url: "/portfolio"
-      },
-      {
-        name: "Portfolio Details",
-        url: "/portfolio-details"
-      }
-    ]
+    // subItems: [
+    //   {
+    //     name: "Portfolio 01",
+    //     url: "/portfolio"
+    //   },
+    //   {
+    //     name: "Portfolio Details",
+    //     url: "/portfolio-details"
+    //   }
+    // ]
   },
   {
     name: "Blog",
-    url: "/blog",
+    url: "/blog-articles",
     subItems: [
-      {
-        name: "Blog 01",
-        url: "/blog"
-      },
-      {
-        name: "Blog 02",
-        url: "/blog-2"
-      },
-      {
-        name: "Blog 03",
-        url: "/blog-3"
-      },
+      // {
+      //   name: "Blog 01",
+      //   url: "/blog"
+      // },
+      // {
+      //   name: "Blog 02",
+      //   url: "/blog-2"
+      // },
+      // {
+      //   name: "Blog 03",
+      //   url: "/blog-3"
+      // },
       {
         name: "Blog Details",
         url: "/blog-single"
