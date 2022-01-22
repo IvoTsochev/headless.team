@@ -6,14 +6,14 @@ import BlogCard from "@/components/blog-card";
 
 const BlogOne = () => {
   return (
-    <section className="commonSection blogPage">
+    <section className="commonSection blogPage hui">
       <Container>
         <Row>
-          {BlogData.map((post, index) => (
-            <Col lg={4} sm={12} md={6} key={index}>
-              <BlogCard data={post} />
+          { BlogData.map((post, index) => (
+            <Col lg={ 4 } sm={ 12 } md={ 6 } key={ index }>
+              <BlogCard data={ post } />
             </Col>
-          ))}
+          )) }
         </Row>
         <Paginations />
       </Container>

@@ -10,20 +10,20 @@ export const NavLinks = [
   {
     name: "Home",
     url: "/",
-    // subItems: [
-    //   {
-    //     name: "Home 01",
-    //     url: "/"
-    //   },
-    //   {
-    //     name: "Home 02",
-    //     url: "/index-2"
-    //   },
-    //   {
-    //     name: "Home 03",
-    //     url: "/index-3"
-    //   }
-    // ]
+    subItems: [
+      {
+        name: "Home 01",
+        url: "/"
+      },
+      {
+        name: "Home 02",
+        url: "/index-2"
+      },
+      {
+        name: "Home 03",
+        url: "/index-3"
+      }
+    ]
   },
   {
     name: "About",
@@ -46,33 +46,33 @@ export const NavLinks = [
   {
     name: "Portfolio",
     url: "/portfolio",
-    // subItems: [
-    //   {
-    //     name: "Portfolio 01",
-    //     url: "/portfolio"
-    //   },
-    //   {
-    //     name: "Portfolio Details",
-    //     url: "/portfolio-details"
-    //   }
-    // ]
+    subItems: [
+      {
+        name: "Portfolio 01",
+        url: "/portfolio"
+      },
+      {
+        name: "Portfolio Details",
+        url: "/portfolio-details"
+      }
+    ]
   },
   {
     name: "Blog",
-    url: "/blog-articles",
+    url: "/blog",
     subItems: [
-      // {
-      //   name: "Blog 01",
-      //   url: "/blog"
-      // },
-      // {
-      //   name: "Blog 02",
-      //   url: "/blog-2"
-      // },
-      // {
-      //   name: "Blog 03",
-      //   url: "/blog-3"
-      // },
+      {
+        name: "Blog 01",
+        url: "/blog"
+      },
+      {
+        name: "Blog 02",
+        url: "/blog-2"
+      },
+      {
+        name: "Blog 03",
+        url: "/blog-3"
+      },
       {
         name: "Blog Details",
         url: "/blog-single"
@@ -541,11 +541,11 @@ export const ServicePostTwoData = {
       iconName: "mei-development",
       url: "/service-details"
     },
-    // {
-    //   title: "App Development",
-    //   iconName: "mei-app-development",
-    //   url: "/service-details"
-    // }
+    {
+      title: "App Development",
+      iconName: "mei-app-development",
+      url: "/service-details"
+    }
   ]
 };
 
