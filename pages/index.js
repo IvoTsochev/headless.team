@@ -18,7 +18,10 @@ import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 
-const HomeOne = () => {
+
+
+const HomeOne = ({ articles }) => {
+
   return (
     <MenuContextProvider>
       <SearchContextProvider>
@@ -43,5 +46,7 @@ const HomeOne = () => {
     </MenuContextProvider>
   );
 };
+
+
 
 export default HomeOne;

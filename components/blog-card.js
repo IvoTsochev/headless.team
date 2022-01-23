@@ -1,26 +1,41 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
-const BlogCard = ({ data }) => {
-  const { image, title, url, date } = data;
+const BlogCard = ({ article }) => {
+
+  const { articleTitle, articleSlug, articleThumbnail } = article.fields;
+
+  console.log(article);
+
   return (
     <div className="latestBlogItem">
+
+
       <div className="lbi_thumb">
-        <img src={image} alt={title} />
+        <Image
+          src={ 'https:' + articleThumbnail.fields.file.url }
+          alt={ articleTitle }
+          width={ articleThumbnail.fields.file.details.image.width }
+          height={ articleThumbnail.fields.file.details.image.height }
+        />
       </div>
+
+
       <div className="lbi_details">
-        <Link href={url}>
-          <a className="lbid_date">{date}</a>
-        </Link>
+
+
         <h2>
-          <Link href={url}>
-            <a>{title}</a>
+          <Link href={ '/blog/' + articleSlug }>
+            <a>{ articleTitle }</a>
           </Link>
         </h2>
-        <Link href={url}>
-          <a className="learnM">Learn More</a>
-        </Link>
+
+        <Link href={ '/blog/' + articleSlug }><a className="learnM">Learn More</a></Link>
+
       </div>
+
+
     </div>
   );
 };

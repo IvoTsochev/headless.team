@@ -35,61 +35,59 @@ const HeaderTwo = () => {
 
   return (
     <header
-      className={`header_01 black_color ${
-        true === sticky ? "fixedHeader animated flipInX" : null
-      }`}
+      className={ `header_01 black_color ${true === sticky ? "fixedHeader animated flipInX" : null
+        }` }
       id="header"
     >
       <Container fluid>
         <Row className="justify-content-between">
-          <Col className="col-6" lg={2} md={3} sm={3}>
+          <Col className="col-6" lg={ 2 } md={ 3 } sm={ 3 }>
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src={LogoImage.dark} alt="" />
+                  <img src={ LogoImage.dark } alt="" />
                 </a>
               </Link>
             </div>
           </Col>
-          <Col lg={8} sm={8} md={7} className="d-none d-lg-block ">
+          <Col lg={ 8 } sm={ 8 } md={ 7 } className="d-none d-lg-block ">
             <nav className="mainmenu text-center">
               <ul>
-                {NavLinks.map((links, index) => {
+                { NavLinks.map((links, index) => {
                   return (
                     <li
-                      key={index}
-                      className={`${
-                        undefined !== links.subItems
+                      key={ index }
+                      className={ `${undefined !== links.subItems
                           ? "menu-item-has-children"
                           : ""
-                      }`}
+                        }` }
                     >
-                      <Link href={links.url}>
-                        <a>{links.name}</a>
+                      <Link href={ links.url }>
+                        <a>{ links.name }</a>
                       </Link>
-                      {undefined !== links.subItems ? (
+                      { undefined !== links.subItems ? (
                         <ul className="sub-menu">
-                          {links.subItems.map((subLinks, index) => (
-                            <li key={index}>
-                              <Link href={subLinks.url}>
-                                <a>{subLinks.name}</a>
+                          { links.subItems.map((subLinks, index) => (
+                            <li key={ index }>
+                              <Link href={ subLinks.url }>
+                                <a>{ subLinks.name }</a>
                               </Link>
                             </li>
-                          ))}
+                          )) }
                         </ul>
-                      ) : null}
+                      ) : null }
                     </li>
                   );
-                })}
+                }) }
               </ul>
             </nav>
           </Col>
-          <Col lg={2} md={2} sm={4} className="col-6">
+          <Col lg={ 2 } md={ 2 } sm={ 4 } className="col-6">
             <div className="navigator text-right">
               <a
                 className="search searchToggler"
                 href="#"
-                onClick={handleSearchClick}
+                onClick={ handleSearchClick }
               >
                 <i className="mei-magnifying-glass"></i>
               </a>
@@ -102,7 +100,7 @@ const HeaderTwo = () => {
               <a
                 id="open-overlay-nav"
                 className="menu hamburger"
-                onClick={handleMenuClick}
+                onClick={ handleMenuClick }
                 href="#"
               >
                 <i className="mei-menu"></i>
