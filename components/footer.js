@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-lg-5 col-sm-6 col-md-5">
             <aside className="widget aboutwidget">
               <a href="/">
-                <img src={light} alt="" />
+                <img src={ light } alt="" />
               </a>
               <p>
                 Welcome to our web design agency. Lorem ipsum is simply free
@@ -23,14 +23,14 @@ const Footer = () => {
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
-              <p>
+              {/* <p>
                 66 Broklyn Street, New York
                 <br />
                 United States of America
-              </p>
+              </p> */}
               <p>P: 666 888 000</p>
               <p>
-                E: <a href="#">needhelp@meipaly.com</a>
+                E: <a href="#">ivaylo@headless.team</a>
               </p>
             </aside>
           </div>
@@ -60,8 +60,8 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
-              © copyright {new Date().getFullYear()} by{" "}
-              <a href="#">Layerdrops.com</a>
+              © copyright { new Date().getFullYear() } by{ " " }
+              <a href="#">Headless.Team</a>
             </div>
           </div>
         </div>

@@ -1301,9 +1301,9 @@ License URI:
   margin-top: -8px;
 }
 .footer_1 .aboutwidget img {
-  max-width: 100%;
+  max-width: 23%;
   height: auto;
-  margin-bottom: 34px;
+  margin-bottom: 0px;
 }
 .footer_1 .aboutwidget p {
   font-size: 14px;

@@ -49,37 +49,37 @@ const TeamCarousel = () => {
     <section className="commonSection team">
       <Container>
         <Row>
-          <Col lg={12} className="text-center">
-            <SectionTitle data={sectionContent} />
+          <Col lg={ 12 } className="text-center">
+            <SectionTitle data={ sectionContent } />
           </Col>
         </Row>
       </Container>
-      <Swiper className="team_slider" {...carouselOptions}>
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
+      <Swiper className="team_slider" { ...carouselOptions }>
+        { posts.map((post, index) => (
+          <SwiperSlide key={ index }>
+            <TeamCard data={ post } />
           </SwiperSlide>
-        ))}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
+        )) }
+        {/* { posts.map((post, index) => (
+          <SwiperSlide key={ index }>
+            <TeamCard data={ post } />
           </SwiperSlide>
-        ))}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
+        )) }
+        { posts.map((post, index) => (
+          <SwiperSlide key={ index }>
+            <TeamCard data={ post } />
           </SwiperSlide>
-        ))}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
+        )) }
+        { posts.map((post, index) => (
+          <SwiperSlide key={ index }>
+            <TeamCard data={ post } />
           </SwiperSlide>
-        ))}{" "}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
+        )) }{ " " }
+        { posts.map((post, index) => (
+          <SwiperSlide key={ index }>
+            <TeamCard data={ post } />
           </SwiperSlide>
-        ))}
+        )) } */}
         <div className="swiper-pagination" id="team-carousel-pagination"></div>
       </Swiper>
     </section>

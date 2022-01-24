@@ -12,8 +12,6 @@ import { createClient } from "contentful";
 
 const BlogPage = ({ articles }) => {
 
-  console.log(articles);
-
   return (
     <MenuContextProvider>
       <SearchContextProvider>
@@ -21,7 +19,7 @@ const BlogPage = ({ articles }) => {
 
           <HeaderOne />
 
-          <PageBanner title="Blog 01яяяяяяяяяяяяя" name="Blog" />
+          <PageBanner title="Blog 01" name="Blog" />
           <BlogOne data={ articles } />
 
           <Footer />

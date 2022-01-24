@@ -48,5 +48,4 @@ const HomeOne = () => {
 };
 
 
-
 export default HomeOne;
