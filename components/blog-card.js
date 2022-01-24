@@ -4,9 +4,8 @@ import Image from "next/image";
 
 const BlogCard = ({ article }) => {
 
-  const { articleTitle, articleSlug, articleThumbnail } = article.fields;
 
-  console.log(article);
+  const { articleTitle, articleSlug, articleThumbnail } = article.fields;
 
   return (
     <div className="latestBlogItem">

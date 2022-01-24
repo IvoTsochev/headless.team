@@ -20,7 +20,7 @@ import SliderOne from "@/components/slider-one";
 
 
 
-const HomeOne = ({ articles }) => {
+const HomeOne = () => {
 
   return (
     <MenuContextProvider>

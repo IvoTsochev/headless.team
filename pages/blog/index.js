@@ -6,12 +6,13 @@ import BlogOne from "@/components/blog-one";
 import SearchContextProvider from "context/search-context";
 import MenuContextProvider from "context/menu-context";
 import HeaderOne from "@/components/header-one";
-import HeaderTwo from "@/components/header-two";
+// import HeaderTwo from "@/components/header-two";
 // Utils
 import { createClient } from "contentful";
 
 const BlogPage = ({ articles }) => {
 
+  console.log(articles);
 
   return (
     <MenuContextProvider>
@@ -20,8 +21,7 @@ const BlogPage = ({ articles }) => {
 
           <HeaderOne />
 
-          <PageBanner title="Blog 01" name="Blog" />
-
+          <PageBanner title="Blog 01яяяяяяяяяяяяя" name="Blog" />
           <BlogOne data={ articles } />
 
           <Footer />

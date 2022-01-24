@@ -59,11 +59,13 @@ License URI:
 }
 .logo {
   text-align: left;
-  padding: 0 0 39px;
+  padding: 0 0 0px;
 }
 .logo img {
-  max-width: 100%;
+  max-width: 33%;
   height: auto;
+  position: relative;
+  top: -16px;
 }
 .mainmenu {
   position: relative;
