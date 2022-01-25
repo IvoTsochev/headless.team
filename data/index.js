@@ -10,20 +10,20 @@ export const NavLinks = [
   {
     name: "Home",
     url: "/",
-    subItems: [
-      {
-        name: "Home 01",
-        url: "/"
-      },
-      {
-        name: "Home 02",
-        url: "/index-2"
-      },
-      {
-        name: "Home 03",
-        url: "/index-3"
-      }
-    ]
+    // subItems: [
+    //   {
+    //     name: "Home 01",
+    //     url: "/"
+    //   },
+    //   {
+    //     name: "Home 02",
+    //     url: "/index-2"
+    //   },
+    //   {
+    //     name: "Home 03",
+    //     url: "/index-3"
+    //   }
+    // ]
   },
   {
     name: "About",
@@ -60,24 +60,24 @@ export const NavLinks = [
   {
     name: "Blog",
     url: "/blog",
-    subItems: [
-      {
-        name: "Blog 01",
-        url: "/blog"
-      },
-      {
-        name: "Blog 02",
-        url: "/blog-2"
-      },
-      {
-        name: "Blog 03",
-        url: "/blog-3"
-      },
-      {
-        name: "Blog Details",
-        url: "/blog-single"
-      }
-    ]
+    // subItems: [
+    //   {
+    //     name: "Blog 01",
+    //     url: "/blog"
+    //   },
+    //   {
+    //     name: "Blog 02",
+    //     url: "/blog-2"
+    //   },
+    //   {
+    //     name: "Blog 03",
+    //     url: "/blog-3"
+    //   },
+    //   {
+    //     name: "Blog Details",
+    //     url: "/blog-single"
+    //   }
+    // ]
   },
   {
     name: "Contact",

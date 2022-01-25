@@ -2369,6 +2369,7 @@ License URI:
   color: #818181;
   line-height: 30px;
   font-size: 16px;
+  margin-right: .5rem;
 }
 .blog_tagitems a:hover {
   color: #000;
