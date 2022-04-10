@@ -4,7 +4,6 @@ module.exports = {
   ...withImages(),
   images: {
     domains: [
-      'images.ctfassets.net'
     ]
   }
 }

@@ -22,5 +22,8 @@
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^6.4.6",
     "typeface-oswald": "^1.1.13"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
   }
 }
