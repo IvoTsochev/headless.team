@@ -1,0 +1,17 @@
+.mainNav {
+  height: 80px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  .mainNav__logoContainer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  .mainNav__right {
+    display: flex;
+    gap: 30px;
+    padding: 1rem;
+    align-items: center;
+  }
+}

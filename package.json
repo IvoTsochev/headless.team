@@ -1,29 +1,21 @@
 {
-  "name": "meipaly-nextjs",
+  "name": "headless.team",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^15.11.1",
-    "bootstrap": "^4.6.0",
-    "contentful": "^9.1.5",
-    "next": "^10.0.0",
-    "next-images": "^1.7.0",
-    "react": "17.0.1",
-    "react-bootstrap": "^1.4.3",
-    "react-countup": "^4.3.3",
-    "react-dom": "17.0.1",
-    "react-modal-video": "^1.2.6",
-    "react-scroll": "^1.8.1",
-    "react-visibility-sensor": "^5.1.1",
-    "swiper": "^6.4.6",
-    "typeface-oswald": "^1.1.13"
+    "next": "12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "sass": "^1.50.0"
   }
 }
