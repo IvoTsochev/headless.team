@@ -1,15 +1,11 @@
-import HomepageLayout from '../layouts/homepage';
+import HomepageLayout from '../layouts/HomepageLayout';
 
 
 
-const HomeOne = () => {
-
+export default function Home () {
   return (
     <HomepageLayout>
-      <h1>HP</h1>
+      <h3>thi is the indexjs</h3>
     </HomepageLayout>
-  );
-};
-
-
-export default HomeOne;
+  )
+}

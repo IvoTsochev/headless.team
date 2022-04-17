@@ -1,9 +1,6 @@
-const withImages = require('next-images');
-
-module.exports = {
-  ...withImages(),
-  images: {
-    domains: [
-    ]
-  }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
 }
+
+module.exports = nextConfig
